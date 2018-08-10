@@ -1,0 +1,22 @@
+{
+  "name": "example-jest-fetch-mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": [
+      "./test/setup.js"
+    ]
+  },
+  "dependencies": {
+    "cross-fetch": "^2.2.2"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "jest-fetch-mock": "https://github.com/GrahamTheCoder/jest-fetch-mock.git#blob-fix"
+  }
+}
